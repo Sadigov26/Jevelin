@@ -1,0 +1,118 @@
+.experience {
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.experienceContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experienceContainerTitle {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    h3 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    h1 {
+        font-size: 36px;
+        color: #000;
+    }
+}
+
+.experienceContainerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experienceContainerDesk {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .faiz {
+        width: 100%;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .faizXett {
+
+            width: 30%;
+            height: 5px;
+            border-radius: 10px;
+            background-color: #7D1EFF;
+        }
+    }
+
+    .faiz2 {
+        width: 100%;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .faizXett2 {
+
+            width: 80%;
+            height: 5px;
+            border-radius: 10px;
+            background-color: #7D1EFF;
+        }
+    }.faiz3 {
+        width: 100%;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .faizXett3 {
+
+            width: 60%;
+            height: 5px;
+            border-radius: 10px;
+            background-color: #7D1EFF;
+        }
+    }
+}
+
+.experienceContainerDesk>div {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.experienceContainerDesk>div h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+}
+
+.experienceContainerDesk>div p {
+    font-size: 19px;
+    color: #666;
+}
+
+.experienceContainerimg {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.experienceContainerimg img {
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,57 @@
+
+.quickvideo {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+min-height: 120vh;
+    .quickvideoContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .quickvideoContainerTop {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            text-align: start;
+            width: 100%;
+
+            h3 {
+                color: #333;
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                color: #222;
+                font-size: 43px;
+                margin-bottom: 20px;
+
+                span {
+                    color: blueviolet;
+                }
+            }
+
+            p {
+                color: #666;
+                font-size: 18px;
+            }
+        }
+
+        .quickvideoContainerBottom {
+            width: 100%;
+            iframe {
+                width: 80%;
+                height: 500px;
+                border: 0;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
